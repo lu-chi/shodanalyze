@@ -5,6 +5,30 @@ from scapy.all import *
 
 #import os
 
+# class SCAN:
+#	def __init__():
+#		pass
+# 	def syn_scan():
+#		pass
+# 	def ack_scan():
+#		pass	
+# 	def full_scan():
+#		pass
+# 	def xmass_scan():
+#		pass
+
+# class IP_RES:
+#
+#	def __init__();
+#		pass
+#	def add_resolve():
+#		pass
+#	def ip_range():
+#		pass
+#	def ip_cidr():
+#		pass
+
+
 def SYN_SCAN(SYN_dst, SYN_sport, SYN_dport):
 	
 	ip = IP(dst = SYN_dst)
@@ -29,7 +53,7 @@ for item in bs.find_all('host'):
 	print "----------------------------------------------------------------------------"
 
 # todo: 
-# - SYN_SCAN return formatting
+# - SCAN return formatting
 # - parsing user line args
 # - output beautify - xml/html report format
 # - 
